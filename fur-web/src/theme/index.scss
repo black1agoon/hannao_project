@@ -1,0 +1,50 @@
+@import "default";
+@import "themes";
+
+// Set theme property
+// @param $property: CSS property
+// @param $key: Key in theme
+// @param $themes: Pre-defined themes
+@mixin theme-prop($property, $key, $themes: $themes) {
+  #{$property}: map-get($default-theme, $key);
+  @each $theme, $entries in $themes {
+    &.theme-#{$theme},
+    .theme-#{$theme} & {
+      #{$property}: map-get($entries, $key);
+    }
+  }
+}
+
+// Set properties in group
+// @private
+// @param $group: Map of properties and values
+// @param $properties: List of properties
+@mixin group-props($group, $properties) {
+  @if $group {
+    @if $properties {
+      @each $property in $properties {
+        #{$property}: map-get($group, $property);
+      }
+    } @else {
+      @each $property, $value in $group {
+        #{$property}: $value;
+      }
+    }
+  }
+}
+
+// Set theme group
+// @param $key: Group key in theme
+// @param $properties: CSS property in group, null for all
+// @param $themes: Pre-defined themes
+@mixin theme-group($key, $properties: null, $themes: $themes) {
+  $group: map-get($default-theme, $key);
+  @include group-props($group, $properties);
+  @each $theme, $entries in $themes {
+    $group: map-get($entries, $key);
+    &.theme-#{$theme},
+    .theme-#{$theme} & {
+      @include group-props($group, $properties);
+    }
+  }
+}

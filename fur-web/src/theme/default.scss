@@ -1,0 +1,15 @@
+$default-theme: (
+  // Colors
+  'color-primary': #409EFF,
+  'color-success': #67C23A,
+  'color-highlight': #FFFFFF,
+  'color-active': #409EFF,
+  // Navbar
+  'navbar': (
+    background: #292961,
+    color: #EEEEEE,
+  ),
+  'sidebar-hover': (
+    background: #ECF5FF,
+  )
+);

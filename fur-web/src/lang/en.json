@@ -1,0 +1,147 @@
+{
+  "lang": "English",
+  "app": {
+    "home": "Home",
+    "about": "About",
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "nav": {
+      "recent": "Recent",
+      "suggestion": "Suggestion",
+      "unsaved": "Unsaved",
+      "toggle": "Toggle Menus"
+    },
+    "user": {
+      "menus": {
+        "profile": "Profile",
+        "settings": "Settings",
+        "logout": "Logout"
+      },
+      "chat": {
+        "title": "Chat"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "theme": "Theme",
+      "language": "Language"
+    },
+    "theme": {
+      "default": "Default",
+      "light": "Light",
+      "dark": "Dark",
+      "easy": "Easy"
+    },
+    "loginView": {
+      "rules": {
+        "username": "Username is required.",
+        "password": "Password is required."
+      }
+    },
+    "aboutView": {
+      "msg": "This is an about page."
+    },
+    "notFoundView": {
+      "title": "You are lost.",
+      "message": "This page does not exist.",
+      "action": "Take me home"
+    },
+    "exportDialog": {
+      "exportFile": "Export File",
+      "exportType": "Type",
+      "columnName": "Column Name",
+      "exportLimit": "Export count limit is 40000",
+      "exportRange": "Range",
+      "allData": "All Data",
+      "selectRange": "Select Range",
+      "startPosition": "Start From",
+      "exportCount": "Count"
+    },
+    "messages": {
+      "msgCount": "{count} Message | {count} Messages",
+      "markAllRead": "Mark All as Read",
+      "noUnread": "No unread message",
+      "markAllRead?": "Mark all as read?",
+      "todoCount": "{count} Todo | {count} Todos",
+      "noUnreadTodo": "No unread todo",
+      "markAllTodoRead?": "Mark all todos as read?"
+    },
+    "request": {
+      "pleaseLogin": "Please login",
+      "requestFailed": "Request failed"
+    },
+    "system": {
+      "add": "New",
+      "edit": "Edit",
+      "delete": "Delete",
+      "search": "Search",
+      "export": "Export",
+      "refresh": "Refresh",
+      "advancedSearch": "Advanced Search",
+      "columnSetting": "Column Setting",
+      "save": "Save",
+      "close": "Close",
+      "confirmClose": "Confirm close?",
+      "selectOneRow": "Please select one row.",
+      "confirmDelete": "Confirm delete?",
+      "sysParameter": "System Parameter | System Parameters",
+      "dictDefinition": "Dictionary Definition | Dictionary Definitions",
+      "dictValue": "Dictionary Value | Dictionary Values",
+      "pages": {
+        "menuSetting": {
+          "menu": "Menu",
+          "feature": "Feature",
+          "parentName": "Parent",
+          "title": "Title",
+          "url": "URL",
+          "memo": "Memo",
+          "picUrl": "Icon",
+          "isMobile": "Mobile",
+          "table": {
+            "title": "Name",
+            "url": "Route Path",
+            "dom": "DOM ID",
+            "attrCode": "Attribute Code"
+          },
+          "addConfirm": "New menu is not saved. Leave now?",
+          "pc": "PC",
+          "mobile": "Mobile",
+          "manualUpload": "Manual Upload",
+          "selectPicture": "Select Picture",
+          "useRoot": "Add to root",
+          "dragNode": "Drag node",
+          "changeNode": "Change node"
+        }
+      }
+    }
+  },
+  "common": {
+    "action": "Action | Actions",
+    "export": "Export",
+    "close": "Close",
+    "save": "Save",
+    "submit": "Submit",
+    "draft": "Save Draft",
+    "cancel": "Cancel",
+    "back": "Back",
+    "add": "Add",
+    "remove": "Remove",
+    "delete": "Delete",
+    "search": "Search",
+    "query": "Search",
+    "reset": "Reset",
+    "file": "File",
+    "filename": "Filename",
+    "commaSeparated": "comma-separated",
+    "moveUp": "Move Up",
+    "moveDown": "Move Down",
+    "fieldRequired": "{field} is required",
+    "confirmClose": "Confirm close?",
+    "selectOneRow": "Please select one row.",
+    "checkRows": "Please check at least one row",
+    "confirmDelete": "Confirm delete?",
+    "pleaseInput": "Please input",
+    "pleaseSelect": "Please select"
+  }
+}

@@ -1,0 +1,30 @@
+cache:
+  key: ${CI_JOB_NAME}
+  paths:
+    - node_modules/
+
+build app:
+  image: yarn:latest
+  stage: build
+  only:
+    refs:
+      - master
+      - tags
+  script:
+    - yarn install --no-progress
+    - yarn build
+  artifacts:
+    name: "fur-web.r$(date +%y%m%d).$CI_COMMIT_REF_NAME.$CI_COMMIT_SHORT_SHA"
+    expire_in: 1 week
+    paths:
+      - dist
+
+archive:
+  image: yarn:latest
+  stage: deploy
+  only:
+    refs:
+      - master
+      - tags
+  script:
+    - zip -r /archive/"fur-web.r$(date +%y%m%d).$CI_COMMIT_REF_NAME.$CI_COMMIT_SHORT_SHA.zip" dist/

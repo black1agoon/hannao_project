@@ -1,0 +1,48 @@
+@keyframes columnScroll {
+  0% {
+    transform: translateY(0px)
+  }
+  100% {
+    transform: translateY(-50%)
+  }
+}
+
+@keyframes singeScroll {
+  from {
+    transform: translate3d(0, 100%, 0)
+  }
+  to {
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+.kira-slide-in-up
+  animation-name: singeScroll
+  animation-duration: 1s
+  animation-timing-function: linear
+
+@keyframes slide-left {
+  from {
+    transform: translate3d(100%, 0, 0)
+  }
+  to {
+    transform: translate3d(0, 0, 0)
+  }
+}
+@keyframes slide-right {
+  from {
+    transform: translate3d(-100%, 0, 0)
+  }
+  to {
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+.window-slide-left
+  animation-name: slide-left
+  animation-duration: .3s
+  animation-timing-function: linear
+.window-slide-right
+  animation-name: slide-right
+  animation-duration: .3s
+  animation-timing-function: linear

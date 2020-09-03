@@ -1,0 +1,18 @@
+$dark-theme: (
+  // Colors
+  'color-primary': #409EFF,
+  'color-success': #67C23A,
+  // Navbar
+  'navbar': (
+    background: #212121,
+  ),
+  // Sidebar
+  'sidebar': (
+    background: #323232,
+    color: #FFFFFF,
+    border-right: unset,
+  ),
+  'sidebar-hover': (
+    background: #454545,
+  )
+);

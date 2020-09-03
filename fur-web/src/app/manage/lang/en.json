@@ -1,0 +1,78 @@
+{
+  "add": "New",
+  "edit": "Edit",
+  "delete": "Delete",
+  "search": "Search",
+  "export": "Export",
+  "refresh": "Refresh",
+  "advancedSearch": "Advanced Search",
+  "columnSetting": "Column Setting",
+  "save": "Save",
+  "close": "Close",
+  "confirmClose": "Confirm close?",
+  "selectOneRow": "Please select one row.",
+  "confirmDelete": "Confirm delete?",
+  "sysParameter": "System Parameter | System Parameters",
+  "dictDefinition": "Dictionary Definition | Dictionary Definitions",
+  "dictValue": "Dictionary Value | Dictionary Values",
+  "pages": {
+    "sysParameters": {
+      "id": "Name",
+      "text": "Value",
+      "memo": "Memo",
+      "createTime": "Create Time",
+      "updateTime": "Update Time",
+      "updateUser": "Update User"
+    },
+    "syslog": {
+      "loginLog": "Login Log",
+      "actionLog": "Action Log",
+      "realName": "Real Name",
+      "account": "Account",
+      "loginDateTime": "Login Time",
+      "ipAddress": "IP",
+      "hostName": "Host Name",
+      "isSuccess": "Success",
+      "actionName": "Action",
+      "actionUrl": "Action URL",
+      "actionDateTime": "Action Time",
+      "actionArgs": "Arguments"
+    },
+    "dataDict": {
+      "addDefinition": "Add Definition",
+      "addValue": "Add Value",
+      "search": "@:app.system.search",
+      "edit": "@:app.system.edit",
+      "delete": "@:app.system.delete",
+      "searchPlaceholder": "Name/Code",
+      "code": "Code",
+      "text": "Name",
+      "memo": "Memo",
+      "actions": "Actions"
+    },
+    "menuSetting": {
+      "menu": "Menu",
+      "feature": "Feature",
+      "parentName": "Parent",
+      "title": "Title",
+      "url": "URL",
+      "memo": "Memo",
+      "picUrl": "Icon",
+      "isMobile": "Mobile",
+      "table": {
+        "title": "Name",
+        "url": "Route Path",
+        "dom": "DOM ID",
+        "attrCode": "Attribute Code"
+      },
+      "addConfirm": "New menu is not saved. Leave now?",
+      "pc": "PC",
+      "mobile": "Mobile",
+      "manualUpload": "Manual Upload",
+      "selectPicture": "Select Picture",
+      "useRoot": "Add to root",
+      "dragNode": "Drag node",
+      "changeNode": "Change node"
+    }
+  }
+}

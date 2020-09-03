@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="290px" height="32px" viewBox="0 0 290 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#C2E9FB" offset="0%"></stop>
+            <stop stop-color="#A1C4FD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="切图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-3" fill="#1890FF" fill-rule="nonzero">
+            <rect id="Rectangle" x="16.2464986" y="7" width="12.9971989" height="25"></rect>
+            <rect id="Rectangle" x="32.4929972" y="14" width="12.9971989" height="18"></rect>
+            <rect id="Rectangle" x="48.7394958" y="18" width="12.9971989" height="14"></rect>
+            <rect id="Rectangle" x="64.9859944" y="25" width="12.9971989" height="7"></rect>
+            <rect id="Rectangle" x="0" y="25" width="12.9971989" height="7"></rect>
+            <rect id="Rectangle" x="81.232493" y="18" width="12.9971989" height="14"></rect>
+            <rect id="Rectangle" x="98.2913165" y="7" width="12.9971989" height="25"></rect>
+            <rect id="Rectangle" x="114.537815" y="14" width="12.9971989" height="18"></rect>
+            <rect id="Rectangle" x="130.784314" y="11" width="12.9971989" height="21"></rect>
+            <rect id="Rectangle" x="147.030812" y="14" width="12.9971989" height="18"></rect>
+            <rect id="Rectangle" x="163.277311" y="0" width="12.9971989" height="32"></rect>
+            <rect id="Rectangle" x="179.52381" y="10" width="12.9971989" height="22"></rect>
+            <rect id="Rectangle" x="195.770308" y="21" width="12.9971989" height="11"></rect>
+            <rect id="Rectangle" x="212.016807" y="14" width="12.9971989" height="18"></rect>
+            <rect id="Rectangle" x="228.263305" y="0" width="12.9971989" height="32"></rect>
+            <rect id="Rectangle" x="277.002801" y="0" width="12.9971989" height="32"></rect>
+            <rect id="Rectangle" x="244.509804" y="10" width="12.9971989" height="22"></rect>
+            <rect id="Rectangle" x="260.756303" y="21" width="12.9971989" height="11"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Alibaba PuHuiTi-R;
+  src: url("./Alibaba-PuHuiTi-Regular.otf");
+}
+
+@font-face {
+  font-family: Alibaba PuHuiTi-B;
+  src: url('./Alibaba-PuHuiTi-Bold.otf');
+}
+
+@font-face {
+  font-family: PangMenZhengDao;
+  src: url('./PangMenZhengDao.ttf');
+}
+
+@font-face {
+  font-family: 'Alibaba-puhuiti';
+  src: url("./Alibaba-PuHuiTi-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pangmenzhengdao';
+  src: url('./PangMenZhengDao.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'digital-dismay';
+  src: url('digital-dismay.woff.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Teko-Regular';
+  src: url('Teko-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alibaba-puhuiti-heavy';
+  src: url('Alibaba-PuHuiTi-Heavy.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+

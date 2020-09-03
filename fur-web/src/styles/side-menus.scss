@@ -1,0 +1,31 @@
+@import "../theme/index";
+
+.side-menus.el-menu {
+  @include theme-group('sidebar', ('background', 'color', 'border-right'));
+
+  .el-menu {
+    @include theme-group('sidebar', ('background'));
+  }
+
+  .el-menu-item,
+  .el-submenu__title {
+    @include theme-group('sidebar', ('background', 'color'));
+  }
+
+  .el-menu-item {
+    border-left: 3px transparent solid;
+
+    &.is-active {
+      @include theme-prop('border-left-color', 'color-active');
+    }
+  }
+
+  .el-submenu__title i {
+    @include theme-group('sidebar', ('color'));
+  }
+
+  .el-submenu__title:focus, .el-submenu__title:hover,
+  .el-menu-item:focus, .el-menu-item:hover, .el-menu-item.is-active {
+    @include theme-group('sidebar-hover', ('background'))
+  }
+}

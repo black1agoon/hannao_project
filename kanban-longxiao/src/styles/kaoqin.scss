@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 1920px;
+  height: 1080px;
+}
+
+@font-face {
+  font-family: "阿里巴巴普惠体 R";
+  src: url("../assets/fonts/Alibaba-PuHuiTi-Regular.otf");
+}
+
+@font-face {
+  font-family: "Adobe Heiti Std R";
+  src: url("../assets/fonts/AdobeHeitiStd-Regular.otf");
+}

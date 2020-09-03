@@ -1,0 +1,17 @@
+input:read-only {
+  background-color: #F5F7FA;
+}
+
+.el-cascader input:read-only,
+.el-select input:read-only {
+  background-color: inherit;
+}
+
+.el-table--enable-row-hover .el-table__body tr.current-row:hover > td,
+.el-table__body tr.current-row > td {
+  background: #8cc5ff88;
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+  background: #e0edff88;
+}

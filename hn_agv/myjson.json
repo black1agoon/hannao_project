@@ -1,0 +1,625 @@
+{
+  "elements": [
+    {
+      "type": "element",
+      "name": "point",
+      "attributes": {
+        "name": "1",
+        "xPosition": "50000",
+        "yPosition": "-7500",
+        "zPosition": "0",
+        "vehicleOrientationAngle": "NaN",
+        "type": "HALT_POSITION"
+      },
+      "elements": [
+        {
+          "type": "element",
+          "name": "outgoingPath",
+          "attributes": {
+            "name": "1 --- 2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "point",
+      "attributes": {
+        "name": "2",
+        "xPosition": "16000",
+        "yPosition": "-7000",
+        "zPosition": "0",
+        "vehicleOrientationAngle": "NaN",
+        "type": "HALT_POSITION"
+      },
+      "elements": [
+        {
+          "type": "element",
+          "name": "outgoingPath",
+          "attributes": {
+            "name": "2 --- 3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "point",
+      "attributes": {
+        "name": "3",
+        "xPosition": "16000",
+        "yPosition": "-17500",
+        "zPosition": "0",
+        "vehicleOrientationAngle": "NaN",
+        "type": "HALT_POSITION"
+      },
+      "elements": [
+        {
+          "type": "element",
+          "name": "outgoingPath",
+          "attributes": {
+            "name": "3 --- 4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "point",
+      "attributes": {
+        "name": "4",
+        "xPosition": "25000",
+        "yPosition": "-25000",
+        "zPosition": "0",
+        "vehicleOrientationAngle": "NaN",
+        "type": "HALT_POSITION"
+      },
+      "elements": [
+        {
+          "type": "element",
+          "name": "outgoingPath",
+          "attributes": {
+            "name": "4 --- 5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "point",
+      "attributes": {
+        "name": "5",
+        "xPosition": "45000",
+        "yPosition": "-25000",
+        "zPosition": "0",
+        "vehicleOrientationAngle": "NaN",
+        "type": "HALT_POSITION"
+      },
+      "elements": [
+        {
+          "type": "element",
+          "name": "outgoingPath",
+          "attributes": {
+            "name": "5 --- 6"
+          }
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "point",
+      "attributes": {
+        "name": "6",
+        "xPosition": "51000",
+        "yPosition": "-17500",
+        "zPosition": "0",
+        "vehicleOrientationAngle": "NaN",
+        "type": "HALT_POSITION"
+      },
+      "elements": [
+        {
+          "type": "element",
+          "name": "outgoingPath",
+          "attributes": {
+            "name": "6 --- 1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "path",
+      "attributes": {
+        "name": "1 --- 2",
+        "sourcePoint": "1",
+        "destinationPoint": "2",
+        "length": "34004",
+        "routingCost": "1",
+        "maxVelocity": "1000",
+        "maxReverseVelocity": "0",
+        "locked": "false"
+      }
+    },
+    {
+      "type": "element",
+      "name": "path",
+      "attributes": {
+        "name": "2 --- 3",
+        "sourcePoint": "2",
+        "destinationPoint": "3",
+        "length": "10500",
+        "routingCost": "1",
+        "maxVelocity": "1000",
+        "maxReverseVelocity": "0",
+        "locked": "false"
+      }
+    },
+    {
+      "type": "element",
+      "name": "path",
+      "attributes": {
+        "name": "3 --- 4",
+        "sourcePoint": "3",
+        "destinationPoint": "4",
+        "length": "11715",
+        "routingCost": "1",
+        "maxVelocity": "1000",
+        "maxReverseVelocity": "0",
+        "locked": "false"
+      }
+    },
+    {
+      "type": "element",
+      "name": "path",
+      "attributes": {
+        "name": "4 --- 5",
+        "sourcePoint": "4",
+        "destinationPoint": "5",
+        "length": "20000",
+        "routingCost": "1",
+        "maxVelocity": "1000",
+        "maxReverseVelocity": "0",
+        "locked": "false"
+      }
+    },
+    {
+      "type": "element",
+      "name": "path",
+      "attributes": {
+        "name": "5 --- 6",
+        "sourcePoint": "5",
+        "destinationPoint": "6",
+        "length": "9605",
+        "routingCost": "1",
+        "maxVelocity": "1000",
+        "maxReverseVelocity": "0",
+        "locked": "false"
+      }
+    },
+    {
+      "type": "element",
+      "name": "path",
+      "attributes": {
+        "name": "6 --- 1",
+        "sourcePoint": "6",
+        "destinationPoint": "1",
+        "length": "10050",
+        "routingCost": "1",
+        "maxVelocity": "1000",
+        "maxReverseVelocity": "0",
+        "locked": "false"
+      }
+    },
+    {
+      "type": "element",
+      "name": "visualLayout",
+      "attributes": {
+        "name": "VLayout-1",
+        "scaleX": "50.0",
+        "scaleY": "50.0"
+      },
+      "elements": [
+        {
+          "type": "element",
+          "name": "modelLayoutElement",
+          "attributes": {
+            "visualizedObjectName": "1",
+            "layer": "0"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "LABEL_OFFSET_X",
+                "value": ""
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "LABEL_OFFSET_Y",
+                "value": ""
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "POSITION_X",
+                "value": "50750"
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "POSITION_Y",
+                "value": "-7500"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "modelLayoutElement",
+          "attributes": {
+            "visualizedObjectName": "1 --- 2",
+            "layer": "0"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "CONN_TYPE",
+                "value": "DIRECT"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "modelLayoutElement",
+          "attributes": {
+            "visualizedObjectName": "2",
+            "layer": "0"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "LABEL_OFFSET_X",
+                "value": ""
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "LABEL_OFFSET_Y",
+                "value": ""
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "POSITION_X",
+                "value": "16000"
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "POSITION_Y",
+                "value": "-7000"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "modelLayoutElement",
+          "attributes": {
+            "visualizedObjectName": "2 --- 3",
+            "layer": "0"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "CONN_TYPE",
+                "value": "DIRECT"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "modelLayoutElement",
+          "attributes": {
+            "visualizedObjectName": "3",
+            "layer": "0"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "LABEL_OFFSET_X",
+                "value": ""
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "LABEL_OFFSET_Y",
+                "value": ""
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "POSITION_X",
+                "value": "16000"
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "POSITION_Y",
+                "value": "-17500"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "modelLayoutElement",
+          "attributes": {
+            "visualizedObjectName": "3 --- 4",
+            "layer": "0"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "CONN_TYPE",
+                "value": "BEZIER"
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "CONTROL_POINTS",
+                "value": "310,450;400,520"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "modelLayoutElement",
+          "attributes": {
+            "visualizedObjectName": "4",
+            "layer": "0"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "LABEL_OFFSET_X",
+                "value": ""
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "LABEL_OFFSET_Y",
+                "value": ""
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "POSITION_X",
+                "value": "25000"
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "POSITION_Y",
+                "value": "-25000"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "modelLayoutElement",
+          "attributes": {
+            "visualizedObjectName": "4 --- 5",
+            "layer": "0"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "CONN_TYPE",
+                "value": "BEZIER_3"
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "CONTROL_POINTS",
+                "value": "530,520;640,650;700,500;724,440;780,410"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "modelLayoutElement",
+          "attributes": {
+            "visualizedObjectName": "5",
+            "layer": "0"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "LABEL_OFFSET_X",
+                "value": ""
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "LABEL_OFFSET_Y",
+                "value": ""
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "POSITION_X",
+                "value": "45000"
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "POSITION_Y",
+                "value": "-25000"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "modelLayoutElement",
+          "attributes": {
+            "visualizedObjectName": "5 --- 6",
+            "layer": "0"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "CONN_TYPE",
+                "value": "BEZIER"
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "CONTROL_POINTS",
+                "value": "1040,520;1030,410"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "modelLayoutElement",
+          "attributes": {
+            "visualizedObjectName": "6",
+            "layer": "0"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "LABEL_OFFSET_X",
+                "value": ""
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "LABEL_OFFSET_Y",
+                "value": ""
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "POSITION_X",
+                "value": "51000"
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "POSITION_Y",
+                "value": "-17500"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "modelLayoutElement",
+          "attributes": {
+            "visualizedObjectName": "6 --- 1",
+            "layer": "0"
+          },
+          "elements": [
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "CONN_TYPE",
+                "value": "BEZIER_3"
+              }
+            },
+            {
+              "type": "element",
+              "name": "property",
+              "attributes": {
+                "name": "CONTROL_POINTS",
+                "value": "1016,313;950,280;1010,250;1038,236;1120,230"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "name": "property",
+      "attributes": {
+        "name": "tcs:modelFileLastModified",
+        "value": "2019-11-08T10:52:12.002Z"
+      }
+    }
+  ]
+}

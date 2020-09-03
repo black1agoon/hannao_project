@@ -1,0 +1,9 @@
+@import "dark";
+@import "light";
+@import "easy";
+
+$themes: (
+  'dark': $dark-theme,
+  'light': $light-theme,
+  'easy': $easy-theme,
+);

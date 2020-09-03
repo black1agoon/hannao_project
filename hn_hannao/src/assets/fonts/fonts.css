@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Teko-Regular';
+  src: url('Teko-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HYWenHei';
+  src: url('HYWenHei-85W.subset.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alibaba-PuHuiTi';
+  src: url('ALIBABA-PUHUITI-REGULAR.OTF');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MFLiHei';
+  src: url('MFLiHei.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'digital-dismay';
+  src: url('digital-dismay.woff.ttf');
+  font-weight: normal;
+  font-style: normal;
+}

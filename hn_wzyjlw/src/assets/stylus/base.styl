@@ -1,0 +1,65 @@
+body, html
+  line-height: 1
+  font-weight: 200
+  //font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif
+.clearfix
+  //display: inline-block
+  &:after
+    display: block
+    content: "."
+    height: 0
+    line-height: 0
+    clear: both
+    visibility: hidden
+
+.el-icon-close
+  font-size: 20px
+  font-weight: bold !important
+  color: #f78989
+.el-icon-check
+  font-size: 20px
+  font-weight: bold !important
+  color: #67c23a
+
+.btn-icon
+  padding-right: 5px
+
+.quillWrapper
+  strong, b
+    font-weight: bold !important
+.ql-snow .ql-picker-label:before
+  vertical-align: top
+
+
+.is-success     // el-form中验证成功后绿色变无
+  .el-input__inner
+    border: 1px solid #dcdfe6 !important
+  .el-form-item.is-success
+    .el-textarea__inner
+      border: 1px solid #dcdfe6 !important
+
+.el-popover__title // dashboard页面 ?hover标题样式
+  font-weight: bold
+  text-align: center
+
+.form
+  .el-form-item__label
+    line-height: 28px
+    padding: 0 !important
+  .el-form-item__error
+    left: 24px !important
+  .item
+    width: 100%
+    display: flex
+    line-height: 28px
+    .explain
+      flex: 0 0 10px
+      height: 10px
+      margin-right: 10px
+    .input
+      flex: 1
+    .add
+      line-height: 28px
+      margin-left: 5px
+      cursor: pointer

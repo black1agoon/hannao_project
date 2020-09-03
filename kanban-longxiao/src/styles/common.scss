@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#app {
+  font-family: 'Microsoft YaHei UI', 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+.bg-board {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.bg-board-w {
+  box-sizing: border-box;
+  transform-origin: top left;
+}
+
+.clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}

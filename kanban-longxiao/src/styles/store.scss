@@ -1,0 +1,57 @@
+@import '../assets/fonts/fonts.css';
+
+#app {
+  color: #CCF2FF;
+  font-family: 'Alibaba PuHuiTi-R', Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+}
+
+#app > .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+}
+
+.font-AP-B {
+  font-family: 'Alibaba PuHuiTi-B', Helvetica, Arial, sans-serif
+}
+
+.font-PMZD {
+  font-family: 'PangMenZhengDao', Helvetica, Arial, sans-serif
+}
+
+i {
+  font-style: normal
+}
+
+.flex {
+  display: flex
+}
+
+.justify-between {
+  justify-content: space-between
+}
+
+.justify-around {
+  justify-content: space-around
+}
+
+.align-center {
+  align-items: center
+}
+
+h3, h4, ul {
+  margin: 0;
+  padding: 0
+}
+
+ul, li {
+  list-style: none
+}
+
+.no-select {
+  user-select: none;
+}

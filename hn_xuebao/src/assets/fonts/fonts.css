@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Teko-Regular';
+  src: url('Teko-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Alibaba PuHuiTi-R;
+  src: url("./Alibaba-PuHuiTi-Regular.otf");
+}
+@font-face {
+  font-family: 'HYWenHei';
+  src: url('HYWenHei-85W.subset.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'digital-dismay';
+  src: url('digital-dismay.woff.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: PangMenZhengDao;
+  src: url('./PangMenZhengDao.ttf');
+}
+

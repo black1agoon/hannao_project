@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="鉴真宝是由鉴正宝信息技术有限公司和公安部第三研究所防伪事业部共同建设，是第三方智能商标标识防伪认证云服务平台，主要功能有品牌保护，品质追溯和物联网电子商务。">
+    <link rel="icon" type="image/png" href="/static/img/icon.png">
+    <meta name="viewport" content="width=device-width">
+    <title>鉴真宝</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+      }
+
+      #coco-ie-mask {
+        background: #F7F7F7;
+        width: 100%;
+        min-height: 100%;
+        position: absolute;
+        bottom: auto;
+          _top: expression(eval('document.documentElement.scrollTop'));
+        left: 0;
+        z-index: 9999;
+        text-align: center;
+      }
+
+      #coco-ie-mask a {
+        min-width: 160px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        padding: 0 30px;
+        vertical-align: middle;
+      }
+
+      #coco-ie-mask .oops {
+        margin: 48px auto 34px auto;
+      }
+
+      #coco-ie-mask .warning {
+        font-size: 18px;
+        font-weight: bolder;
+        color: #222;
+        margin-bottom: 66px;
+      }
+
+      #coco-ie-mask a.last {
+        border-right: none;
+      }
+
+      .lazy-icon {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+        display: inline-block;
+      }
+
+      .old-block #oops_icon {
+        background: url('/static/img/browser/icon_oops.png') no-repeat center center;
+      }
+
+      .old-block #ie_icon {
+        background: url('/static/img/browser/icon_ie.png') no-repeat center center;
+      }
+
+      .old-block #firefox_icon {
+        background: url('/static/img/browser/icon_firefox.png') no-repeat center center;
+      }
+
+      .old-block #chrome_icon {
+        background: url('/static/img/browser/icon_chrome.png') no-repeat center center;
+      }
+
+      #old_days {
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <div id="mobile_app"></div>
+    <!-- built files will be auto injected -->
+
+    <div id="old_days">
+      <div id="coco-ie-mask">
+        <div class="oops">
+          <div class="lazy-icon" id="oops_icon"></div>
+        </div>
+        <p class="warning">您正在使用的浏览器版本过低，将不能正常浏览。</p>
+        <div class="browser">
+          <a href="https://support.microsoft.com/zh-cn/products/internet-explorer">
+            <span class="lazy-icon" id="ie_icon"></span><br>升级至新版本的 IE 浏览器
+          </a>
+          <a href="http://www.firefox.com.cn/">
+            <span class="lazy-icon" id="firefox_icon"></span><br>使用火狐浏览器
+          </a>
+          <a href="https://www.google.cn/chrome/">
+            <span class="lazy-icon" id="chrome_icon"></span><br>使用 Google Chrome 浏览器
+          </a>
+        </div>
+      </div>
+      <script type="text/javascript">
+        (function() {
+          var ua = window.navigator.userAgent;
+          var msie = ua.indexOf("MSIE ");
+          if (msie > 0 && window.attachEvent && !window.addEventListener) {
+            var old_days = document.getElementById('old_days')
+            old_days.style.display = 'block'
+            old_days.className += "old-block"
+          }
+         })();
+      </script>
+    </div>
+  </body>
+
+</html>

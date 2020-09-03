@@ -1,0 +1,78 @@
+{
+  "add": "新增",
+  "edit": "编辑",
+  "delete": "删除",
+  "search": "搜索",
+  "export": "导出",
+  "refresh": "刷新",
+  "advancedSearch": "高级检索",
+  "columnSetting": "列设置",
+  "save": "保存",
+  "close": "关闭",
+  "confirmClose": "确认关闭？",
+  "selectOneRow": "请选择一行",
+  "confirmDelete": "确认删除？",
+  "sysParameter": "系统参数",
+  "dictDefinition": "字典项",
+  "dictValue": "字典值",
+  "pages": {
+    "sysParameters": {
+      "id": "参数名",
+      "text": "参数值",
+      "memo": "备注",
+      "createTime": "创建时间",
+      "updateTime": "修改时间",
+      "updateUser": "操作人员"
+    },
+    "syslog": {
+      "loginLog": "登录日志",
+      "actionLog": "操作日志",
+      "realName": "姓名",
+      "account": "账号",
+      "loginDateTime": "登录时间",
+      "ipAddress": "IP",
+      "hostName": "主机名",
+      "isSuccess": "是否登录成功",
+      "actionName": "操作",
+      "actionUrl": "访问地址",
+      "actionDateTime": "操作时间",
+      "actionArgs": "参数"
+    },
+    "dataDict": {
+      "addDefinition": "新增字典项",
+      "addValue": "新增值",
+      "search": "@:app.system.search",
+      "edit": "@:app.system.edit",
+      "delete": "@:app.system.delete",
+      "searchPlaceholder": "名称/编号/拼音",
+      "code": "编号",
+      "text": "名称",
+      "memo": "备注",
+      "actions": "操作"
+    },
+    "menuSetting": {
+      "menu": "菜单",
+      "feature": "功能",
+      "parentName": "父菜单",
+      "title": "名称",
+      "url": "路径",
+      "memo": "备注",
+      "picUrl": "缩略图",
+      "isMobile": "终端",
+      "table": {
+        "title": "名称",
+        "url": "路由地址",
+        "dom": "DOM 索引",
+        "attrCode": "特征码"
+      },
+      "addConfirm": "新增操作未保存，确认要离开吗？",
+      "pc": "电脑端",
+      "mobile": "移动端",
+      "manualUpload": "手动上传",
+      "selectPicture": "选择图片",
+      "useRoot": "新增到根目录",
+      "dragNode": "拖动节点",
+      "changeNode": "变更显示"
+    }
+  }
+}

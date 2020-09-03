@@ -1,0 +1,64 @@
+#app {
+  width: 3840px;
+  height: 1080px;
+  background: #092663 url("../assets/img/home/layer 1(1).png");
+}
+
+@font-face {
+  font-family: "Teko";
+  src: url("../assets/fonts/Teko-Regular.otf");
+}
+
+@font-face {
+  font-family: "Teko Bold";
+  src: url("../assets/fonts/Teko-Bold.otf");
+}
+
+@font-face {
+  font-family: "Teko Medium";
+  src: url("../assets/fonts/Teko-Medium.otf");
+}
+
+@font-face {
+  font-family: "PuHuiTi R";
+  src: url("../assets/fonts/Alibaba-PuHuiTi-Regular.otf");
+}
+
+@font-face {
+  font-family: "PuHuiTi M";
+  src: url("../assets/fonts/Alibaba-PuHuiTi-Medium.otf");
+}
+
+@font-face {
+  font-family: "Digital 7";
+  src: url("../assets/fonts/digital-7.ttf");
+}
+
+.font-tk {
+  font-family: Teko, sans-serif;
+}
+
+.font-tb {
+  font-family: "Teko Bold", sans-serif;
+}
+
+.font-tm {
+  font-family: "Teko Medium", sans-serif;
+}
+
+.font-pm {
+  font-family: "PuHuiTi M", sans-serif;
+}
+
+.font-pr {
+  font-family: "PuHuiTi R", sans-serif;
+}
+
+.font-d7 {
+  font-family: "Digital 7", sans-serif;
+}
+
+.pos {
+  position: absolute;
+}
+
